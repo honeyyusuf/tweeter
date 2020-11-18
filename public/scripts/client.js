@@ -98,6 +98,7 @@ $(document).ready(function() {
       loadtweets();
       console.log('loaded');
     });
+    console.log($(this).serialize(), "!");
    
   });
  
