@@ -1,0 +1,20 @@
+nav {
+ background-color: #4056A1;
+ height: 120px;
+ color:#ffff;
+ display:flex;
+ justify-content: space-between;
+ position:fixed;
+ padding:1.5em 1.5em;
+ width:100%;
+ top:0;
+ 
+}
+.bold{
+  font-size:35px;
+  
+}
+.tweet{
+  font-size:45px;
+  font-family: 'Bungee';
+}

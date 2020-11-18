@@ -1,0 +1,38 @@
+.usertweet{
+  border-color: black;
+  border-style: solid;
+  margin: 5px 0px;
+  width:100%;
+}
+.usertweet:hover{
+  color:lightblue;
+  box-shadow:10px 8px lightblue;
+}
+.image{
+  display:flex;
+  
+}
+.image img{
+  margin-right: 10px ;
+}
+.userinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 15px;
+  margin:20px;
+}
+.usertext{
+  margin:20px;
+}
+
+.otherinfo{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  border-top: black;
+  border-top-style: solid;
+  font-size:15px;
+  margin: 20px;
+}
