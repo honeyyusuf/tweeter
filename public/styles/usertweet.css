@@ -1,7 +1,7 @@
 .usertweet{
   border-color: black;
   border-style: solid;
-  margin: 5px 0px;
+  margin: 20px 20px;
   width:100%;
 }
 .usertweet:hover{
@@ -13,14 +13,14 @@
   
 }
 .image img{
-  margin-right: 10px ;
+  margin-right:10px ;
 }
 .userinfo{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: space-between;
   align-content: center;
-  font-size: 15px;
+  font-size:15px;
   margin:20px;
 }
 .usertext{
@@ -29,10 +29,13 @@
 
 .otherinfo{
   display: flex;
-  justify-content: flex-start;
-  align-content: center;
+  justify-content: space-between;
+  align-content:center;
   border-top: black;
   border-top-style: solid;
   font-size:15px;
-  margin: 20px;
+  margin: 20px 20px;
+}
+.otherinfo div{
+  margin-top: 10px;
 }

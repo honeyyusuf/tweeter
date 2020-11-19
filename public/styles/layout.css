@@ -19,13 +19,25 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family:'Source Sans Pro', sans-serif;
-}
-main{
-  width: 90%;
   
+  border-color: red;
+}
+.container{
+  width: 90%;
   margin: 20px 20px;
+
 }
 
+
+@media only screen and (min-width: 1024px) {
+ .headertweet{
+  margin: 200px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+ 
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

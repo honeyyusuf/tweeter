@@ -2,8 +2,9 @@
   display:flex;
   justify-content: center;
   flex-direction: column;
-  align-content: center;
- 
+  align-items: center;
+  margin: 20px 20px;
+  width:100%;
 }
 
 #tweet-text{
@@ -15,7 +16,7 @@
   border-bottom-style: solid;
   background-color: #f4f1ec;
   height: 40px;
-  
+  width:100%;
 }
 .tweetbutton{
   background-color: #4056A1;
@@ -29,12 +30,12 @@
 }
 .error-empty{
   background: #f4f1ec;
-  color:#c51244 !important;
-  border: 6px solid #c51244 !important; 
+  color:red !important;
+  border: 6px solid red!important; 
 }
 
 .error-long{
   background: #f4f1ec ;
-  color:#c51244 !important;
-  border: 6px solid #c51244 !important; 
+  color:red !important;
+  border: 6px solid red!important; 
 }

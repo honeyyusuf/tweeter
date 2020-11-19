@@ -11,10 +11,25 @@ nav {
  
 }
 .bold{
-  font-size:35px;
-  
+  font-size:30px;
 }
+.tw{
+  font-size:20px;
+  text-align:right;
+}
+
+
 .tweet{
   font-size:45px;
   font-family: 'Bungee';
+}
+.redarrow{
+  margin:0px 50px;
+}
+@media only screen and (max-width: 1024px){
+  nav{
+    
+    background-color: #fcca00;
+    background-image: url(http://www.transparenttextures.com/patterns/asfalt-light.png);
+  }
 }
