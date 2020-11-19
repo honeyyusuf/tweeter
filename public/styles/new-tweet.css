@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin: 20px 20px;
-  width:100%;
+  
 }
 
 #tweet-text{
@@ -16,7 +16,7 @@
   border-bottom-style: solid;
   background-color: #f4f1ec;
   height: 40px;
-  width:100%;
+  
 }
 .tweetbutton{
   background-color: #4056A1;

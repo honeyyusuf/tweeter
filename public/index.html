@@ -42,7 +42,9 @@
         </span>
       
     </nav>
-  <div class="headertweet">
+    
+    <div class="headertweet">
+    <!-------------header----------- -->
     <header>
   
       <div class="profile">
@@ -60,22 +62,27 @@
       
       <section class="new-tweet">
         <form class="tweet-user">
-          
+          <!--Error for input tweet -->
           <div class="error-empty">
             <p>❗Please type in some content in the tweet box❗</p>
             </div>
             <div class="error-long">
               <p>❗You can't post tweet longer than 140 characters❗</p>
-            </div>
+          </div>
+          <!---- new tweet---->
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
         
-          <div class="newtweet">
-            <button class="tweetbutton" type="submit">Tweet</button>
+          <div 
+          class="newtweet">
+           
+            <button 
+            class="tweetbutton" type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
       </section>
+      <!----user tweet container------>
       <container id="tweets-container">
 
       </container>
