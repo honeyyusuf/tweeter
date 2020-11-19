@@ -27,3 +27,14 @@
   display: flex;
   justify-content: space-between;
 }
+.error-empty{
+  background: #f4f1ec;
+  color:#c51244 !important;
+  border: 6px solid #c51244 !important; 
+}
+
+.error-long{
+  background: #f4f1ec ;
+  color:#c51244 !important;
+  border: 6px solid #c51244 !important; 
+}

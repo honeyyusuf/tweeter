@@ -18,7 +18,7 @@ module.exports = function(DataHelpers) {
   });
 
   tweetsRoutes.post("/", function(req, res) {
-    req.body = JSON.parse(req.body);
+    //req.body = JSON.parse(req.body);
     console.log(typeof req.body);
     console.log(req.body.text,"it works");
     if (!req.body.text) {
