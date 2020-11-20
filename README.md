@@ -20,8 +20,8 @@ This repository is the starter code for the project: Students will fork and clon
 - md5 //not used
 - timeago.js//not used
 
-## Tweeter app
+## Tweeter 
 !["Desktop view"](https://github.com/honeyyusuf/tweeter/blob/master/docs/desktopview.png)
-!["Other"](https://github.com/honeyyusuf/tweeter/blob/master/docs/mobileview.png) (https://github.com/honeyyusuf/tweeter/blob/master/docs/mobileview2.png)
+!["Other"](https://github.com/honeyyusuf/tweeter/blob/master/docs/mobileview.png) !["Other"](https://github.com/honeyyusuf/tweeter/blob/master/docs/mobileview2.png)
 !["Empty Tweet error"](https://github.com/honeyyusuf/tweeter/blob/master/docs/emptytweet.png)
 !["Long tweet error"](https://github.com/honeyyusuf/tweeter/blob/master/docs/longtweet.png)
